@@ -4,19 +4,19 @@ struct matrizes {
     int ncolunas;
     float m[100][100];
 };
-///FunÁ„o de imprimir no console as marizes.
+///Fun√ß√£o de imprimir no console as marizes.
 struct matrizes imprimir (struct matrizes m);
-/// FunÁ„o de ler os arquivos com as matrizes iniciais
-/// Para n„o precisar digitar as matrizes no console.
+/// Fun√ß√£o de ler os arquivos com as matrizes iniciais
+/// Para n√£o precisar digitar as matrizes no console.
 struct matrizes arquivos(void);
-/// FunÁ„o para multiplicar as matrizes, operaÁ„o essa que È
+/// Fun√ß√£o para multiplicar as matrizes, opera√ß√£o essa que √©
 /// bem requisitada nesse projeto.
 struct matrizes multiplicar(struct matrizes a, struct matrizes b);
-/// FunÁ„o de imprimir as matrizes em um arquivo .txt para ter
-/// o seu registro n„o apenas no console.
+/// Fun√ß√£o de imprimir as matrizes em um arquivo .txt para ter
+/// o seu registro n√£o apenas no console.
 struct matrizes impArquivos(struct matrizes m);
-/// Lembrando que esse programa n„o lÍ matriz no console para uma
+/// Lembrando que esse programa n√£o l√™ matriz no console para uma
 /// melhor experiencia do opetador.
-/// Nas operaÁıes de leitura e impress„o de arquivos, a escrita
+/// Nas opera√ß√µes de leitura e impress√£o de arquivos, a escrita
 /// do arquivo referente deve ser a seguinte:
 /// c:(ou d: se for o caso)/users/nome do usuario/pasta do arquivo/nome_do_arquivo.txt
