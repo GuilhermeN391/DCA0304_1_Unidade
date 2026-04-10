@@ -62,10 +62,10 @@ float ana(int n, float coorX, float coorY){
     }
 
 
-/// Essa função faz a analise do potencial em todos os pontos da matriz
+/// Essa funÃ§Ã£o faz a analise do potencial em todos os pontos da matriz
 /// Para gerar os dados, tem que se informar os limites da malha e o
-/// Passo do sistema, considerando que a matriz a ser trabalhada será
-/// quadrada, ou seja, a distancia entre os pontos será sempre igual.
+/// Passo do sistema, considerando que a matriz a ser trabalhada serÃ¡
+/// quadrada, ou seja, a distancia entre os pontos serÃ¡ sempre igual.
 struct matrizes multiana(int an){
     struct matrizes u;
     float i, j, pa, lyi, lys, lxe, lxd;
@@ -92,11 +92,11 @@ struct matrizes multiana(int an){
     imprimir(u);
     return u;
     }
-/// Essa função vai fornecer uma matriz com as dimenções da
+/// Essa funÃ§Ã£o vai fornecer uma matriz com as dimenÃ§Ãµes da
 /// matriz formada pela malha, onde a partir do elemento
-/// [0][0] é o resultado no 1° ponto e seguindo gradativamente
+/// [0][0] Ã© o resultado no 1Â° ponto e seguindo gradativamente
 /// tendo a leitura das colunas e depois as linhas como ordem.
-/// Foi considerado 20 como o número de iterações para a analise
+/// Foi considerado 20 como o nÃºmero de iteraÃ§Ãµes para a analise
 /// podendo ser mudado no main.c.
 
 
